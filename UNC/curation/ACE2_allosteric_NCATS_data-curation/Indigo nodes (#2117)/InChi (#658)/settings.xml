@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="inputType_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inputType" type="xstring" value="Molecule"/>
+<config key="ignoreStereochemistryErrors_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ignoreStereochemistryErrors" type="xboolean" value="true"/>
+<config key="treatXAsPseudoatom_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="treatXAsPseudoatom" type="xboolean" value="true"/>
+<config key="colName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="colName" type="xstring" value="Component #1"/>
+<config key="inchiColName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inchiColName" type="xstring" value="Molecule (InChi)"/>
+<config key="appendInchiKeyColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="appendInchiKeyColumn" type="xboolean" value="true"/>
+<config key="inchiKeyColName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inchiKeyColName" type="xstring" value="Molecule (InChiKey)"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row10': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row83': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row141': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row160': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row253': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row283': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row378': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row431': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row626': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%00010Error while translating to Indigo or extracting InChi//InChhiKey value for RowId = 'Row639': inchi-wrapper: Molecule with pseudoatom (*) cannot be converted into InChI%%0001017 other warning messages ..."/>
+</config>
+<entry key="factory" type="xstring" value="com.epam.indigo.knime.inchi.IndigoInchiNodeFactory"/>
+<entry key="node-name" type="xstring" value="InChi"/>
+<entry key="node-bundle-name" type="xstring" value="Indigo extensions for KNIME Workbench"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.epam.indigo.knime.plugin"/>
+<entry key="node-bundle-vendor" type="xstring" value="EPAM Systems, Inc."/>
+<entry key="node-bundle-version" type="xstring" value="2.0.0.qualifier"/>
+<entry key="node-feature-name" type="xstring" value="Indigo KNIME integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="com.epam.indigo.knime.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="EPAM Systems, Inc."/>
+<entry key="node-feature-version" type="xstring" value="2.0.0.qualifier"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="InChi"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3147, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="67e4932f-3abf-48f9-8418-1cf659cd25e1"/>
+</config>
+</config>

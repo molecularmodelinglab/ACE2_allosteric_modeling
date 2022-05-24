@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="input_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="input_column" type="xstring" value="Molecule (RDKit Mol)"/>
+<config key="new_inchi_code_column_name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="new_inchi_code_column_name" type="xstring" value="Molecule (RDKit Mol) (InChI Code)"/>
+<config key="remove_source_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="remove_source_columns" type="xboolean" value="true"/>
+<config key="generate_inchi_keys_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generate_inchi_keys" type="xboolean" value="true"/>
+<config key="new_inchi_key_column_name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="new_inchi_key_column_name" type="xstring" value="Molecule (RDKit Mol) (InChI Key)"/>
+<config key="new_extra_info_column_name_prefix_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="new_extra_info_column_name_prefix" type="xstring" value=""/>
+<config key="generate_return_code_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generate_return_code" type="xboolean" value="false"/>
+<config key="generate_aux_info_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generate_aux_info" type="xboolean" value="false"/>
+<config key="generate_message_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generate_message" type="xboolean" value="false"/>
+<config key="generate_log_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generate_log" type="xboolean" value="false"/>
+<config key="advanced_opions_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="advanced_opions" type="xstring" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.rdkit.knime.nodes.rdkit2inchi.RDKitMolecule2InChINodeFactory"/>
+<entry key="node-name" type="xstring" value="RDKit To InChI"/>
+<entry key="node-bundle-name" type="xstring" value="RDKit Nodes for Knime"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.rdkit.knime.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="NIBR"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.1.v202002121352"/>
+<entry key="node-feature-name" type="xstring" value="RDKit KNIME integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.rdkit.knime.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="NIBR"/>
+<entry key="node-feature-version" type="xstring" value="4.0.1.v202002121352"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="RDKit To InChI"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3030, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="585265a8-78a2-4334-bbd5-aaedf7a1f0f4"/>
+</config>
+</config>

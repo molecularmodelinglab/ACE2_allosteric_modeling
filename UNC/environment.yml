@@ -1,0 +1,11 @@
+name: ace2_allosteric_unc
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - torchvision
+  - pandas
+  - numpy
+  - scikit-learn
+  - rdkit
+prefix: /home/josh/.anaconda3/envs/ace2_allosteric_unc
